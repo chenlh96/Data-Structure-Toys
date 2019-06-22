@@ -1,0 +1,17 @@
+#ifndef APPLICATIONOFSEARCH_H
+#define APPLICATIONOFSEARCH_H
+
+#define MAX_NAME_NUMBER 10
+#define MAX_PHONE_NUMBER 10
+#define MAX_MOBILE_NUMBER 12
+#define MAX_EMAL_ADTRESS 20
+#define MAX_RECORD_NUMBER 100
+
+struct phoneRecord
+{
+    char name[MAX_NAME_NUMBER], phone[MAX_PHONE_NUMBER], mobile[MAX_MOBILE_NUMBER], email[MAX_EMAL_ADTRESS];
+} telephoneBook[MAX_RECORD_NUMBER];
+
+
+
+#endif // !APPLICATIONOFSEARCH_H
